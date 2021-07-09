@@ -1,0 +1,27 @@
+html {
+    background-color: #FEF8EA;
+}
+
+body {
+    margin: 5% auto; color: #444444; font-family: sans-serif; font-size: 16px; line-height: 1.8; text-shadow: 0 1px 0 #ffffff; max-width: 65%;
+}
+
+header {
+  line-height: 1.0;
+}
+
+code {
+    background: white;
+}
+
+a {
+   color: #444444; text-decoration: none;
+}
+a:hover {
+    border-bottom: 1px solid #444444;
+}
+
+a {
+    color: #0077aa;
+    text-decoration: none;
+}

@@ -1,92 +1,111 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tenacity</title>
-    <meta name="google-site-verification" content="FYAxRF5yD8C2fvkYzbgf8oop3MVKC-Z6JVF3bijKodk">
-    <!-- Bootstrap -->
-    <link href="Tenacity_files/bootstrap-4.css" rel="stylesheet">
-    <link rel="icon">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Tenacity&nbsp;<img src="Tenacity_files/logo.svg" style="width:32px;height:32px;"> </a>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://github.com/tenacityteam/tenacity">Source Code on GitHub&nbsp;</a>
-          </li>
-
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
+        <title>Tenacity</title>
+        <meta name="description" content="Tenacity: A user centric audio editor built by a vibrant community"/>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header> 
+            <h1> Tenacity </h1>
+            <p style="margin-top: -1rem">a privacy-respecting audacity fork</p>
+        </header>
+        <p>
+            <a href="https://git.sr.ht/~tenacity/tenacity">Repository</a> ·
+            <a href="https://sr.ht/~tenacity/tenacity/lists">Mailing lists</a> ·
+            <a href="irc://irc.libera.chat/tenacity">IRC</a> (<a
+                href="https://web.libera.chat/gamja/?channels=tenacity">web</a>) ·
+            <a href="https://git.sr.ht/~tenacity/tenacity/refs">Releases</a>
+        </p>
+        <p>
+            <strong>Tenacity</strong> is an easy-to-use, cross-platform
+            multi-track audio editor/recorder for Windows, MacOS, GNU/Linux and
+            other operating systems and is developed by a group of volunteers as
+            open source software.
+        </p>
+        <p>Its features include:</p>
+        <ul>
+            <li>
+                <strong>Recording</strong> from audio devices (real or virtual)
+            </li>
+            <li>
+                <strong>Export / Import</strong> a wide range of audio formats
+                (extendible with FFmpeg)
+            </li>
+            <li>
+                <strong>High quality</strong> including up to 32-bit float audio
+                support
+            </li>
+            <li>
+                <strong>Plug-ins</strong> providing support for VST, LV2, and AU
+                plugins
+            </li>
+            <li>
+                <strong>Scripting</strong> in the built-in scripting language
+                Nyquist, or in Python, Perl and other languages with named pipes
+            </li>
+            <li>
+                <strong>Editing</strong> arbitrary sampling and multi-track
+                timeline
+            </li>
+            <li>
+                <strong>Accessibility</strong> including editing via keyboard,
+                screen reader support and narration support
+            </li>
+            <li>
+                <strong>Tools</strong> useful in the analysis of signals,
+                including audio
+            </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
+        <h3>Getting started</h3>
+        <p>
+            Prepackaged builds <del>are</del> <i>will be</i> available through
+            the
+            <a href="https://git.sr.ht/~tenacity/tenacity/refs">refs page</a> on
+            the repository. Tenacity <del>is also</del> <i>will be</i> packaged
+            on several Linux distributions.
+        </p>
+        <p>
+            Alternatively, you can build Tenacity
+            <a
+                href="https://git.sr.ht/~tenacity/tenacity/tree/master/BUILDING.md"
+                >from source</a
+            >.
+        </p>
+        <h3>Getting help</h3>
+        <p>
+            A great place to ask for general questions with using Tenacity,
+            starting discussions about your ideas and feature requests, and
+            generally getting to know the community is the
+            <a href="https://lists.sr.ht/~tenacity/tenacity-discuss"
+                >tenacity-discuss</a
+            >
+            mailing list.
+        </p>
+        <p>
+            You may also use our IRC channel,
+            <a href="irc://irc.libera.chat/#tenacity"
+                >#tenacity on irc.libera.chat</a
+            >, where you're welcome to ask questions and have discussions in a
+            more free-form, real-time context. The channel is also
+            <a href="https://matrix.to/#/#tenacity:libera.chat"
+                >bridged to Matrix</a
+            >.
+        </p>
 
-			<a class="btn btn-outline-success my-2 my-sm-0" type="submit" role="button" href="Docs/Main.html">Docs&nbsp;</a>
-        </form>
-      </div>
-  </nav>
-    <div class="container mt-2">
-      <div class="row">
-        <div class="col-12">
-          <div class="jumbotron">
-            <h1 class="text-center">Tenacity</h1>
-            <div class="row justify-content-center">
-              <div class="col-auto">
-                <p><a class="btn btn-primary btn-lg" href="/Windows/Main.html" role="button">Windows</a> </p>
-              </div>
-              <div class="col-auto">
-				  <p><a class="btn btn-success btn-lg" href="/Linux/Main.html" role="button">Linux&nbsp;</a> </p>
-              </div>
-
-            <div class="col-auto">
-        <p><a class="btn btn-primary btn-lg" href="/Mac/Main.html" role="button">MacOS&nbsp;</a> </p>
-            </div>
-          </div>
-            <p class="text-center"><br>A FLOSS Audacity Fork · No telemetry or crash reports<br> </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-      </div>
-
-  </div>
-
-    <hr>
-	  <div class="container">
-	<div class="row justify-content-center">
-	<div class="text-center col-md-6 col-12 col-lg-12 col-xl-4">
-          <h3>&nbsp;Want to contribute?</h3>
-          <p>Read the getting started with contibution guide&nbsp;</p>
-          <a class="btn btn-info btn-lg" href="#" role="button">Contribution</a>
-		</div>
-        </div>
-	  </div>
-    <hr>
-
-    <footer class="text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <p>Liscensed under- ___</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="Tenacity/files/jquery-3.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="Tenacity/files/popper.js"></script>
-    <script src="Tenacity/bootstrap-4.js"></script>
-
-
-</body></html>
+        <h3>Development</h3>
+        <p>
+            The upstream development repository may be found on sr.ht. <br />
+            Contribute by sending patches to the
+            <a href="https://lists.sr.ht/~tenacity/tenacity-dev"
+                >development mailing list</a
+            >
+            at
+            <a href="mailto:~tenacity/tenacity-dev@lists.sr.ht"
+                >~tenacity/tenacity-dev@lists.sr.ht</a
+            >.
+        </p>
+    </body>
+</html>
