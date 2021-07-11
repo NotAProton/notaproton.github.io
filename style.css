@@ -4,10 +4,10 @@ html {
 
 body {
     margin: 2rem auto;
-    color: #4d4b46;
+    color: rgb(77, 75, 70);
     font-family: sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 1rem;
+    line-height: 1.5rem;
     width: 65%;
     max-width: 60rem;
 }
@@ -18,10 +18,29 @@ header {
 
 
 a {
-   color: #0077aa;
+   color: rgb(0, 119, 170);
    text-decoration: none;
 }
+
 a:hover {
-    border-bottom: 1px solid #0077aa;
+    border-bottom: 0.063rem solid rgb(0, 119, 170);
 }
 
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+
+  html {
+      background-color: rgb(0 6 26);
+  }
+
+  body {
+    color: rgb(195 203 227);
+  }
+
+  a {
+    color: rgb(0, 208, 255);
+    border-bottom: 0.063rem solid rgb(0, 208, 255);
+  }
+
+}
