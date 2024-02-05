@@ -1,111 +1,52 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
-        <title>Tenacity</title>
-        <meta name="description" content="Tenacity: A user centric audio editor built by a vibrant community"/>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <header> 
-            <h1> Tenacity </h1>
-            <p style="margin-top: -1rem">a privacy-respecting audacity fork</p>
-        </header>
-        <p>
-            <a href="https://git.sr.ht/~tenacity/tenacity">Repository</a> ·
-            <a href="https://sr.ht/~tenacity/tenacity/lists">Mailing lists</a> ·
-            <a href="irc://irc.libera.chat/tenacity">IRC</a> (<a
-                href="https://web.libera.chat/gamja/?channels=tenacity">web</a>) ·
-            <a href="https://git.sr.ht/~tenacity/tenacity/refs">Releases</a>
-        </p>
-        <p>
-            <strong>Tenacity</strong> is an easy-to-use, cross-platform
-            multi-track audio editor/recorder for Windows, MacOS, GNU/Linux and
-            other operating systems and is developed by a group of volunteers as
-            open source software.
-        </p>
-        <p>Its features include:</p>
-        <ul>
-            <li>
-                <strong>Recording</strong> from audio devices (real or virtual)
-            </li>
-            <li>
-                <strong>Export / Import</strong> a wide range of audio formats
-                (extendible with FFmpeg)
-            </li>
-            <li>
-                <strong>High quality</strong> including up to 32-bit float audio
-                support
-            </li>
-            <li>
-                <strong>Plug-ins</strong> providing support for VST, LV2, and AU
-                plugins
-            </li>
-            <li>
-                <strong>Scripting</strong> in the built-in scripting language
-                Nyquist, or in Python, Perl and other languages with named pipes
-            </li>
-            <li>
-                <strong>Editing</strong> arbitrary sampling and multi-track
-                timeline
-            </li>
-            <li>
-                <strong>Accessibility</strong> including editing via keyboard,
-                screen reader support and narration support
-            </li>
-            <li>
-                <strong>Tools</strong> useful in the analysis of signals,
-                including audio
-            </li>
-        </ul>
-        <h3>Getting started</h3>
-        <p>
-            Prepackaged builds <del>are</del> <i>will be</i> available through
-            the
-            <a href="https://git.sr.ht/~tenacity/tenacity/refs">refs page</a> on
-            the repository. Tenacity <del>is also</del> <i>will be</i> packaged
-            on several Linux distributions.
-        </p>
-        <p>
-            Alternatively, you can build Tenacity
-            <a
-                href="https://git.sr.ht/~tenacity/tenacity/tree/master/BUILDING.md"
-                >from source</a
-            >.
-        </p>
-        <h3>Getting help</h3>
-        <p>
-            A great place to ask for general questions with using Tenacity,
-            starting discussions about your ideas and feature requests, and
-            generally getting to know the community is the
-            <a href="https://lists.sr.ht/~tenacity/tenacity-discuss"
-                >tenacity-discuss</a
-            >
-            mailing list.
-        </p>
-        <p>
-            You may also use our IRC channel,
-            <a href="irc://irc.libera.chat/#tenacity"
-                >#tenacity on irc.libera.chat</a
-            >, where you're welcome to ask questions and have discussions in a
-            more free-form, real-time context. The channel is also
-            <a href="https://matrix.to/#/#tenacity:libera.chat"
-                >bridged to Matrix</a
-            >.
-        </p>
-
-        <h3>Development</h3>
-        <p>
-            The upstream development repository may be found on sr.ht. <br />
-            Contribute by sending patches to the
-            <a href="https://lists.sr.ht/~tenacity/tenacity-dev"
-                >development mailing list</a
-            >
-            at
-            <a href="mailto:~tenacity/tenacity-dev@lists.sr.ht"
-                >~tenacity/tenacity-dev@lists.sr.ht</a
-            >.
-        </p>
-    </body>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to my site</title>
+    <style>
+        body {
+            background-color: rgb(255, 3, 150)
+        }
+        
+        h1 {
+            color: red;
+        }
+        
+        p {
+            color: blue;
+        }
+        
+        span {
+            color: green;
+        }
+        
+        .marquee {
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            background-color: yellow;
+        }
+        
+        .marquee span {
+            display: inline-block;
+            padding-left: 100%;
+            animation: marquee 15s linear infinite;
+        }
+        
+        @keyframes marquee {
+            0% {
+                transform: translateX(0%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to my site</h1>
+    <p>This is a neon pink background with different colored fonts.</p>
+    <div class="marquee">
+        <span>This is a marquee with scrolling text.</span>
+    </div>
+</body>
 </html>
